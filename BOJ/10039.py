@@ -1,1 +1,11 @@
-# BOJ 10039 : https://www.acmicpc.net/problem/10039
+sum=0
+
+for i in range(5):
+    score=int(input())
+
+    if score<40:
+        score=40
+        
+    sum+=score
+
+print(int(sum/5))
